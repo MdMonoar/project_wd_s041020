@@ -1,0 +1,327 @@
+@media (min-width:1600px ){    
+    .container-clg-2{
+        max-width: 79% !important;
+    }
+}
+@media (max-width:992px){
+    .bg-hero{
+        background-image: none;
+    }
+    .div-float-right{
+        position: relative;
+    }
+    .txt-left-lg{
+        text-align: center;
+    }
+    .txt-left-lg div:first-child{
+        justify-content: center;
+    }
+    .circle-group-sm{
+        width: 40%;
+        top: -6.5vw;
+        left: -7.5vw;
+    }
+    .p-left-lg{
+        left: 0;
+    }
+    .device-mocks-img{
+        height: 219px;
+    }
+    .bd-txt-1{
+        padding-top: 0rem;
+    }
+    .bd-cont1-h{
+        height: 84rem;
+    }
+    .bd-cont1-pt{
+        padding-top: 15%;
+    }
+    .circle-group-sm-2 {
+        width: 21%;
+        height: auto;
+        position: absolute;
+        top: -5.5vw;
+        left: -6vw;
+    }
+    .circle-group-sm-3 {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        top: -5vw;
+        left: -6.5vw;
+    }
+    .pt-lgc-0{
+        padding-top: 0 !important;
+    }
+    .circle-group-sm-4 {
+        width: 77%;
+        height: auto;
+        position: absolute;
+        top: -6vw;
+        left: -7vw;
+    }
+    .bd-cont2-txt{
+        padding-top: 6rem;
+        position: relative;
+        left: 0%;
+    }
+    .bd-cont4-txt{
+        padding-top: 15rem;
+        position: relative;
+        left: 0%;
+    }
+    .lower-sec-img {
+        top: 24%;
+    }
+}
+@media (max-width:768px){
+    .fnt-hro{
+        font-size: 36px;
+    }
+    .fnt-h1{
+        font-size: 36px;
+    }
+    .fnt-h2{
+        font-size: 20px;
+    }
+    .fnt-h3{
+        font-size: 18px;
+    }
+    .fnt-md-22px{
+        font-size: 22px;
+    }
+    .fnt-md-20px{
+        font-size: 20px;
+    }
+    .fnt-md-17px{
+        font-size: 17px;
+    }
+    .fnt-md-16px{
+        font-size: 16px;
+    }
+    .fnt-p{
+        font-size: 13px;
+    }
+    .fnt-btn-1{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .fnt-ftr-link{
+        font-weight: 500;
+    }
+    .fnt-sup-dlr{
+        font-size: 25px;
+    }
+    .fnt-lwr-sec{
+        font-size: 50px;
+    }
+    .fnt-price{
+        font-size: 50px;
+    }
+    .fnt-day{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .fnt-billing{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .btn-cdark{
+        width: 158px;
+        height: 40px;
+    }
+    .login-btn{
+        padding-left: 0;
+    }
+    .txt-right-md{
+        text-align: center;
+    }
+    .txt-left-md{
+        text-align: center;
+    }
+    .circle-group-sm-3 {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        top: -6vw;
+        left: -7.5vw;
+    }
+    .circle-group-sm-4 {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: -8vw;
+        left: -10vw;
+    }
+    .bd-cont1-h {
+        height: 75rem;
+    }
+    .ftr-links-3{
+        width: 100%;
+    }
+    .ftr-links-2{
+        width: 100%;
+    }
+    .pb-cmd-200{
+        padding-bottom: 200px;
+    }
+    .form-cstm{
+        font-size: 16px;
+    }
+    .txt-underline-md{
+        text-decoration: none;
+    }
+    .lower-circle-up{
+        width: 124px;
+        height: 124px;
+    }
+    .ftr-links-3 li>a {
+        padding-bottom: 1rem;
+    }
+    .upgrade-crd img{
+        width: 17.68px;
+        height: auto;
+    }    
+    .lower-circle-up-2 {
+        top: 22%;
+    }
+    .navbar-cpad{
+        padding-left: 3%;
+        padding-right: 2.5%;
+    }
+}
+@media (min-width:768px){
+    .crd-bg-md-none{
+        background: none;
+        box-shadow: none;
+    }
+}
+@media (max-width:576px){
+    .circle-group-sm {
+        width: 59%;
+        top: -8.5vw;
+        left: -9.5vw;
+    }
+    .bd-cont1-h{
+        height: 60rem;
+    }
+    .btn-cwhite-sm{
+        width: 158px;
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        color: #000000;
+    }
+    .bd-cont1-pt{
+        padding-top: 25%;
+    }
+    .btn-cwhite{
+        width: 100%;
+        max-width: 317px;
+        height: 60px;
+    }
+    .btn-cwhite-162sm{
+        max-width: 162px;
+        height: 42px;
+    }
+    .btn-inactive{
+        max-width: 100%;
+        width: 317px;
+    }
+    .fnt-shrnk-sm{
+        font-size: 16px;
+        padding-top: 3rem;
+    }
+    .pt-sm-5{
+        padding-top: 0;
+    }
+    .txt-right-sm{
+        text-align: center;
+    }
+    .txt-left-sm{
+        text-align: center;
+    }
+    .circle-group-sm-4 {
+        width: 105%;
+        height: auto;
+        position: absolute;
+        top: -8vw;
+        left: -9vw;
+    }
+    .lower-sec-img {
+        top: 29%;
+    }
+    .txt-underline-sm{
+        text-decoration: none;
+    }
+    .mstr-crd-logo{
+        max-width: 33.5px;
+        height: auto;
+    }
+    .vsa-crd-logo{
+        max-width: 33px;
+        height: auto;
+    }
+    .crd-bdy-pad1sm{
+        padding: 1rem;
+    }
+    .bg-radial-2 {
+        height: 215px;
+        width: 215px;
+    }
+}
+@media (min-width:576px){
+    .table-1 tr>td{
+        padding-top: 1.8rem;
+    }
+    .table-2 tr>td{
+        padding-top: 1.8rem;
+    }
+    .table-3 tr>td{
+        padding-top: 1.8rem;
+    }
+}
+@media (max-width:375px){
+    .bd-cont1-h{
+        height: 47rem;
+    }
+    .btn-cwhite{
+        width: 100%;
+        height: 60px;
+    }
+    .btn-cwhite-162sm{
+        max-width: 162px;
+        height: 42px;
+    }
+    .circle-group-sm {
+        width: 50%;
+        top: -11.5vw;
+        left: -13.5vw;
+    }
+    .circle-group-sm-4 {
+        width: 110%;
+        height: auto;
+        position: absolute;
+        top: -13vw;
+        left: -15vw;
+    }
+    .circle-group-sm-3 {
+        width: 39%;
+        height: auto;
+        position: absolute;
+        top: -9vw;
+        left: -10.5vw;
+    }
+    .circle-group-sm-2 {
+        width: 45%;
+        height: auto;
+        position: absolute;
+        top: -13.5vw;
+        left: -13vw;
+    }
+    .iphone-xs img {
+        width: 85%;
+        height: auto;
+        max-width: 380px;
+    }
+}

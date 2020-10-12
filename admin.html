@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Admin Panel</title>
+        
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-cdark">
+        <section class="pb-2">
+            <div class="">
+                <nav class="navbar navbar-dark navbar-expand-md navbar-cpad">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto text-center">
+                            <li class="nav-item text-center">
+                                <a class="nav-link fnt-24px font-weight-500" style="line-height: 1.5;" href="#">Admin Panel
+                                    <div style="margin-top: 2px; border-top: 3px solid white;"></div>
+                                </a>
+                            </li>
+                            <li class="nav-item d-md-none d-block">
+                                <a class="nav-link fnt-p1f" href="pricing.html">Pricing</a>
+                            </li>
+                            <li class="nav-item d-md-none d-block">
+                                <a class="nav-link fnt-p1f" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item d-md-none d-block">
+                                <a class="nav-link fnt-p1f" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item d-md-none d-block pb-5">
+                                <a class="nav-link fnt-p1f" href="settings.html">Settings</a>
+                            </li>
+                            <li class="login-btn">
+                                <a href="login.html"><button class="btn-cdark fnt-btn-1">Logout</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container container-clg-2">
+                    <div style="position: relative;">
+                        <div class="pt-md-5 pb-md-5 pt-0 pb-3"></div>
+                        <div class="pt-md-5 pb-md-5"></div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="fnt-h1 font-weight-500">Backup requests</div>
+                        <div class="pt-md-5 pt-3"></div>
+                        <div class="w-100 d-block" style="overflow-x: auto;">
+                            <table class="table table-borderless table-1">
+                                <thead>
+                                <tr class="fnt-h2 font-weight-500">
+                                    <th scope="col" class="w-20" style="white-space: pre;">Last Backup</th>
+                                    <th scope="col" class="w-18">Name</th>
+                                    <th scope="col" class="w-20">URL</th>
+                                    <th style="width: 100%;"></th>
+                                    <th scope="col">Backup</th>
+                                    <th scope="col">Schedule</th>
+                                    <th scope="col" style="white-space: pre;">Mark Done</th>
+                                </tr>
+                                </thead>
+                                <tbody class="fnt-p font-weight-400 txt-underline txt-underline-md">
+                                <tr>
+                                    <td>9/7/2010</td>
+                                    <td>Shopify Store</td>
+                                    <td>www.mytshirts.com</td>
+                                    <td></td>
+                                    <td><img src="images/cloud-up.svg" alt=""></td>
+                                    <td><img src="images/calendar.svg" alt=""></td>
+                                    <td class="cdactive">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6/7/2010</td>
+                                    <td>CryptoCurrency</td>
+                                    <td>www.buybitcoin.com</td>
+                                    <td></td>
+                                    <td><img src="images/cloud-up.svg" alt=""></td>
+                                    <td><img src="images/calendar.svg" alt=""></td>
+                                    <td>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3/7/2010</td>
+                                    <td>Portfolio</td>
+                                    <td>www.marksdesign.com</td>
+                                    <td></td>
+                                    <td><img src="images/cloud-up.svg" alt=""></td>
+                                    <td><img src="images/calendar.svg" alt=""></td>
+                                    <td class="cdactive">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <div class="pt-md-5 pb-md-5 pt-0 pb-3"></div>
+                        <div class="pt-md-5 pb-md-5"></div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="fnt-h1 font-weight-500">Restore requests</div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="pt-md-5 pt-3"></div>
+                        <div class="w-100 d-block" style="overflow-x: auto;">
+                            <table class="table table-borderless table-2">
+                                <thead>
+                                <tr class="fnt-h2 font-weight-500">
+                                    <th style="white-space: pre;" class="w-20" scope="col">Last Backup</th>
+                                    <th scope="col" class="w-16">Name</th>
+                                    <th scope="col" class="w-20">URL</th>
+                                    <th scope="col">ID</th>
+                                    <th style="width: 100%;"></th>
+                                    <th scope="col">Restore</th>
+                                    <th style="white-space: pre;" scope="col">Mark Done</th>
+                                </tr>
+                                </thead>
+                                <tbody class="fnt-p font-weight-400 txt-underline txt-underline-md">
+                                <tr>
+                                    <td>9/7/2010</td>
+                                    <td>Shopify Store</td>
+                                    <td>www.mytshirts.com</td>
+                                    <td>126547</td>
+                                    <td></td>
+                                    <td><img src="images/squares.svg" alt=""></td>
+                                    <td>
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>6/7/2010</td>
+                                    <td>CryptoCurrency</td>
+                                    <td>www.buybitcoin.com</td>
+                                    <td>937257</td>
+                                    <td></td>
+                                    <td><img src="images/squares.svg" alt=""></td>
+                                    <td class="cdactive">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3/7/2010</td>
+                                    <td>Portfolio</td>
+                                    <td>www.marksdesign.com</td>
+                                    <td>736141</td>
+                                    <td></td>
+                                    <td><img src="images/squares.svg" alt=""></td>
+                                    <td class="cdactive">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M22.2805 9.20005L12.4088 19.0717L8.51985 15.1827L7.2002 16.5024L12.4088 21.711L23.6001 10.5197L22.2805 9.20005Z" fill="currentColor"/>
+                                        <circle cx="15" cy="15" r="14.1" stroke="currentColor" stroke-width="1.8"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <div class="pt-md-5 pb-md-5 pt-0 pb-3"></div>
+                        <div class="pt-md-5 pb-md-5"></div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="fnt-h1 font-weight-500">User Activities</div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="pt-md-5 pt-3"></div>
+                        <div class="w-100 d-block" style="overflow-x: auto;">
+                            <table class="table table-borderless table-3">
+                                <thead>
+                                <tr class="fnt-h2 font-weight-500">
+                                    <th style="white-space: pre;" class="w-18-5" scope="col">Last Backup</th>
+                                    <th scope="col" class="w-14-5">Name</th>
+                                    <th scope="col" class="w-20">URL</th>
+                                    <th style="width: 100%;"></th>
+                                    <th style="white-space: pre;" scope="col">Type of Activity</th>
+                                </tr>
+                                </thead>
+                                <tbody class="fnt-p font-weight-400 txt-underline txt-underline-md">
+                                <tr>
+                                    <td>9/7/2010</td>
+                                    <td>Shopify Store</td>
+                                    <td>www.mytshirts.com</td>
+                                    <td></td>
+                                    <td><img src="images/squares.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>6/7/2010</td>
+                                    <td>CryptoCurrency</td>
+                                    <td>www.buybitcoin.com</td>
+                                    <td></td>
+                                    <td><img src="images/cloud-up.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>3/7/2010</td>
+                                    <td>Portfolio</td>
+                                    <td>www.marksdesign.com</td>
+                                    <td></td>
+                                    <td><img src="images/squares.svg" alt=""></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <div class="pt-md-5 pb-md-5 pt-0 pb-3"></div>
+                        <div class="pt-md-5 pb-md-5"></div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="fnt-h1 font-weight-500">Subscriptions</div>
+                        <div class=" bg-radial-2"></div>
+                        <div class="pt-md-5 pt-3"></div>
+                        <div class="w-100 d-block" style="overflow-x: auto;">
+                            <table class="table table-borderless table-3 w-100">
+                                <thead>
+                                <tr class="fnt-h2 font-weight-500">
+                                    <th scope="col" class="w-21">Name</th>
+                                    <th scope="col">Subscription</th>
+                                    <th class="d-sm-table-cell d-none" style="width: 100%;"></th>
+                                    <th style="white-space: pre;" scope="col">Remove</th>
+                                </tr>
+                                </thead>
+                                <tbody class="fnt-p font-weight-400 txt-underline txt-underline-md">
+                                <tr>
+                                    <td>Shopify Store</td>
+                                    <td>Monthly</td>
+                                    <td class="d-sm-table-cell d-none"></td>
+                                    <td><img src="images/remove1.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>CryptoCurrency</td>
+                                    <td>Premium</td>
+                                    <td class="d-sm-table-cell d-none"></td>
+                                    <td><img src="images/remove1.svg" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>Portfolio</td>
+                                    <td>Semi Annually</td>
+                                    <td class="d-sm-table-cell d-none"></td>
+                                    <td><img src="images/remove1.svg" alt=""></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-md-5 pb-md-5"></div>
+            <div class="pt-5 pb-md-3"></div>
+        </section>
+        <section class="pt-sm-0 pt-5">
+            <footer class="bg-1b">
+                <div class="pt-5 pb-5">
+                    <nav class="navbar navbar-dark navbar-expand-md justify-content-center" style="padding-left: 6%; padding-right: 3%;">
+                        <a class="d-none d-md-block" href="#"><img class="ftr-logo" src="images/logo.png" alt="Logo"></a>
+                        <div class="navbar-collapse" id="navbarSupportedContent">
+                            <div class="pb-md-0 pb-5 pt-md-0 pt-5"></div>
+                            <div class="pb-md-0 pb-5 pt-md-0 pt-5"></div>
+                            <ul class="navbar-nav m-auto text-center justify-content-between ftr-links-3">
+                                <div class="pt-5 pb-5 d-md-none d-block"></div>
+                                <li class="nav-item d-md-none d-block pt-2">
+                                    <a class="nav-link fnt-btn-1" href="login.html"><button class="btn-cdark fnt-btn-1">Logout</button></a>
+                                </li>
+                            </ul>
+                            <div class="text-center pt-5 pb-5">
+                                <a class="d-md-none d-block" href="#"><img class="ftr-logo" src="images/logo.png" alt="Logo"></a>
+                            </div>
+                            <ul class="navbar-nav ml-auto d-md-block d-none">
+                                <li class="nav-item">
+                                    <p class="fnt-p txt-underline"><a href="#">+33-780774300</a></p>
+                                    <p class="fnt-p txt-underline"><a href="#">contact@kingkongbackups.com</a></p>
+                                    <p class="fnt-p d-none d-md-block txt-underline"><a href="#">7 Rue d'Antin Lille - 59800</a></p>
+                                    <p class="fnt-p d-none d-md-block txt-underline"><a href="#">FRANCE</a></p>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav text-center  d-block d-md-none">
+                                <li class="nav-item">
+                                    <p class="fnt-p"><a href="#">+33-780774300</a></p>
+                                    <p class="fnt-p"><a href="#">contact@kingkongbackups.com</a></p>
+                                    <p class="fnt-p"><a href="#">7 Rue d'Antin Lille</a></p>
+                                    <p class="fnt-p"><a href="#">FRANCE 59800</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+        </section>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
