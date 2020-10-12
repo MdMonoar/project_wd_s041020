@@ -127,6 +127,14 @@
     border-radius: 10px;
     color: #000000;
 }
+.btn-cwhite-md233-158{
+    width: 233px;
+    height: 80px;
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;
+}
 .btn-cwhite-sm{
     width: 175px;
     height: 60px;
@@ -272,11 +280,6 @@
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
-}
-.service-svg img{
-    width: 20%;
-    height: auto;
-    max-width: 100px;
 }
 .lower-sec-img {
     position: relative;

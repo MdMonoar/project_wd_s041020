@@ -130,6 +130,10 @@
         width: 158px;
         height: 40px;
     }
+    .btn-cwhite-md233-158{
+        width: 158px;
+        height: 40px;
+    }
     .login-btn{
         padding-left: 0;
     }
@@ -189,6 +193,10 @@
         padding-left: 3%;
         padding-right: 2.5%;
     }
+    .service-svg img{
+        width: 70px;
+        height: 70px;
+    }  
 }
 @media (min-width:768px){
     .crd-bg-md-none{
